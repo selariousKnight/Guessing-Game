@@ -1,6 +1,6 @@
 let inputEle = document.getElementById("num");
 let buttonEle = document.getElementById("button");
-let Attempts = 3;
+let attempts = 3;
 let ranNumber=Math.floor(Math.random()*100)
 let warningEle = document.getElementById("warning-para");
 buttonEle.addEventListener("click",function(){
