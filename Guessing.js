@@ -5,7 +5,7 @@ let attemptsWarning = document.getElementById("attempts");
 let ranNumber=(Math.floor(Math.random()*10));
 let warningEle = document.getElementById("warning-para");
 buttonEle.addEventListener("click",function(){
-    if (inputEle.value === "" || inputEle.value !== "number"){
+    if (inputEle.value === ""){
         warningEle.textContent = "Please Enter number";
         attempts-=1
         attemptsWarning.textContent = `${attempts} Left`;
