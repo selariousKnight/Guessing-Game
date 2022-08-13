@@ -40,7 +40,7 @@ header{
 .button:hover{
     background-color: green;
 }
-.warning-para{
+p{
     color: red;
     align-self: center;
 }
